@@ -35,10 +35,18 @@ class MainActivity : AppCompatActivity() {
         catAdapter.setData(
             listOf(
                 CatModel(Gender.Male, CatBreed.BalineseJavanese, "Fred", "Silent and deadly", "https://cdn2.thecatapi.com/images/7dj.jpg"),
-                CatModel(Gender.Female, CatBreed.ExoticShorthair, "Wilma", "Cuddly assassin", "https://cdn2.thecatapi.com/images/egv.jpg"),
-                CatModel(Gender.Unknown, CatBreed.AmericanCurl, "Curious George", "Award winning investigator", "https://cdn2.thecatapi.com/images/bar.jpg")
+                CatModel(Gender.Female, CatBreed.ExoticShorthair, "William", "Cuddly assassin", "https://cdn2.thecatapi.com/images/egv.jpg"),
+                CatModel(Gender.Unknown, CatBreed.AmericanCurl, "Corigor Gorga", "Award winning investigator", "https://cdn2.thecatapi.com/images/bar.jpg"),
+                CatModel(Gender.Male, CatBreed.AmericanCurl, "Tommy", "Always hungry", "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"),
+                CatModel(Gender.Female, CatBreed.BalineseJavanese, "Luna maya", "Loves to sleep", "https://cdn2.thecatapi.com/images/9lo.jpg"),
+                CatModel(Gender.Male, CatBreed.ExoticShorthair, "Oscar cicak", "Playful jumper", "https://cdn2.thecatapi.com/images/1me.jpg"),
+                CatModel(Gender.Unknown, CatBreed.AmericanCurl, "Shadow", "Hides everywhere", "https://cdn2.thecatapi.com/images/2si.jpg"),
+                CatModel(Gender.Female, CatBreed.BalineseJavanese, "Misty", "Gentle and calm", "https://cdn2.thecatapi.com/images/8u2.jpg"),
+                CatModel(Gender.Male, CatBreed.ExoticShorthair, "Leo vince", "Fast runner", "https://cdn2.thecatapi.com/images/5rk.jpg"),
+                CatModel(Gender.Female, CatBreed.AmericanCurl, "Anabel", "Loves cuddles", "https://cdn2.thecatapi.com/images/a3t.jpg")
             )
         )
+
     }
 
     private fun showSelectionDialog(cat: CatModel) {
